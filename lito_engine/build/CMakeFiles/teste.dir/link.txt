@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/teste.dir/algebra/main.cpp.o CMakeFiles/teste.dir/engines/Engine_OpenGl.cpp.o CMakeFiles/teste.dir/engines/Engine_SDL.cpp.o CMakeFiles/teste.dir/shaders/Shader.cpp.o CMakeFiles/teste.dir/teste_fisica.cpp.o  -o teste  -lGLEW -lSDL2 -lGL -lGLU 
