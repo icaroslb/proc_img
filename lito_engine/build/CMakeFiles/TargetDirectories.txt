@@ -1,3 +1,0 @@
-/home/icaro/Documentos/babosa_engine/build/CMakeFiles/rebuild_cache.dir
-/home/icaro/Documentos/babosa_engine/build/CMakeFiles/edit_cache.dir
-/home/icaro/Documentos/babosa_engine/build/CMakeFiles/Testes.dir

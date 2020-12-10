@@ -16,7 +16,7 @@ void correcao_gamma ( Camada &camada, Camada &camada_aux, bool &preview, bool &a
 int main () {
     lito::Engine_SDL tela( "Processamento_imagem", 680, 680 );
 	lito::Engine_OpenGl opengl;
-	lito::Shader shader( "shader.vs", "shader.fs" );
+	lito::Shader shader( "../shader.vs", "../shader.fs" );
 
     SDL_Event evento;
 	bool loop = true;
@@ -25,7 +25,7 @@ int main () {
 
     printf( "Versão do OpenGl: %s\n", tela.obter_versao_opengl() );
 
-	Camada camada_1( "Pinguim_1.jpg" );
+	Camada camada_1( "../Pinguim_1.jpg" );
 	Camada camada_2( camada_1.img );
 
 	// Setup Dear ImGui context
